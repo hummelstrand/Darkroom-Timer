@@ -34,7 +34,7 @@ void fstopSelector()//f-stop and time setting function, single click button 1
         buttonPlusMinusValue += increment;
     break;
     case MINUS_BUTTON:
-      if (( buttonPlusMinusValue-increment)>0)
+     if (buttonPlusMinusValue >= increment)
       buttonPlusMinusValue-= increment;
     break;
   }
